@@ -40,14 +40,10 @@ In this mini-project, the aim is to solve a `coordinate system` using `augmented
   2. Changing the color of objects of input image to gray and saving the results as a new matrix
   3. Using shear transformation on the matrix of gray picture to make shadow and saving the results in a new matrix
   4. Making final image by mixing the results of step 1 and step 3
- - Input
-  <p align="left">
-    <img src="https://user-images.githubusercontent.com/72709191/195339107-788ef646-6de3-43ba-be9c-d1e01ffb43b5.jpeg" width=35% height=35% />
-  </p>
   
- - Final Result 
+ - Final Result for [This Image](https://github.com/tanya-jp/LinearAlgebra/blob/main/Shadow%20Test.JPG)
 <p align="left">
-    <img src="https://user-images.githubusercontent.com/72709191/195339352-81ed14fd-b272-474e-bebb-ca993a9b88fd.png" width=45% height=45% />
+    <img src="https://user-images.githubusercontent.com/72709191/195399219-8f655b3f-49e8-490c-83f5-d4ef391f70ff.png" width=45% height=45% />
 </p>
 
 ## Regression
