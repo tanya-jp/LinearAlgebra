@@ -41,16 +41,16 @@ In this mini-project, the aim is to solve a `coordinate system` using `augmented
   3. Using shear transformation on the matrix of gray picture to make shadow and saving the results in a new matrix
   4. Making final image by mixing the results of step 1 and step 3
   
- - Final Result for [This Image](https://github.com/tanya-jp/LinearAlgebra/blob/main/Shadow%20Test.JPG)
+ - Final Result of [This Image](https://github.com/tanya-jp/LinearAlgebra/blob/main/Shadow%20Test.JPG)
 <p align="left">
-    <img src="https://user-images.githubusercontent.com/72709191/195399219-8f655b3f-49e8-490c-83f5-d4ef391f70ff.png" width=45% height=45% />
+    <img src="https://user-images.githubusercontent.com/72709191/195399219-8f655b3f-49e8-490c-83f5-d4ef391f70ff.png" width=55% height=55% />
 </p>
 
 ## Regression
 This mini-project aims to forecast the open values of the last 10 rows of [GOOGL.csv](https://github.com/tanya-jp/LinearAlgebra/blob/main/GOOGL.csv), using `linear regression` and `polynomial regression`. After the prediction the error is calculated and the figure of actual values and forecasted ones is shown.
 - Output Figure
 <p align="left">
-   <img src="https://user-images.githubusercontent.com/72709191/195385249-15a0d8b4-58e9-4ce9-aa1e-c02071424a9d.png" width=50% height=50% />
+   <img src="https://user-images.githubusercontent.com/72709191/195385249-15a0d8b4-58e9-4ce9-aa1e-c02071424a9d.png" width=60% height=60% />
 </p>
 
 ## Noise Reduction
@@ -58,8 +58,8 @@ This mini-project is based on the fact that `SVD` reduces the noises of received
 ```
 np.linalg.svd(matrix)
 ```
-It is notable that for having the most possible accurate output S values need a threshold which in this project is set 1750. After finding new S values, new image which has less noise will be created.
+It is notable that for having the most possible accurate output, S values need a threshold which in this project is set 1750. After finding new S values, new image which has less noise will be created.
 - The Cleaned Image of [the Noisy Image](https://github.com/tanya-jp/LinearAlgebra/blob/main/noisy.jpg)
 <p align="left">
-   <img src="https://user-images.githubusercontent.com/72709191/195393268-3d9931fd-cea8-4f3b-ad90-d3837ed75dd9.jpeg" width=10% height=10% />
+   <img src="https://user-images.githubusercontent.com/72709191/195393268-3d9931fd-cea8-4f3b-ad90-d3837ed75dd9.jpeg" width=15% height=15% />
 </p>
