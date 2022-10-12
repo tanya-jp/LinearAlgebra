@@ -1,5 +1,5 @@
 # LinearAlgebra
-This repository contains four mini projects covering the important topics in Linear Algebra.
+This repository contains four mini-projects covering the important topics in Linear Algebra.
 
 ## Coordinate System
 In this mini-project, the aim is to solve a `coordinate system` using `augmented matrix`. The steps of solving the given system are listed in the following:
@@ -10,15 +10,29 @@ In this mini-project, the aim is to solve a `coordinate system` using `augmented
   5. Making echelon form of the matrix
   6. Finding free variables
   7. Printing results
- - Inputs
-  <p align="left">
-    <img src="https://user-images.githubusercontent.com/72709191/195332520-a64f0310-2992-40fc-bf90-3ae3f666e5f5.JPG" width=25% height=40% />
-  </p>
+ - Input Coordinate System
+ ```
+   1(x3)-2(x4)=-3
+   1(x1)-7(x2)+6(x4)=5
+   -1(x1)+7(x2)-4(x3)+2(x4)=7
+ ```
+  Input values for each row should be splitted by space. For instance, entering first row of above example is:
+ ```
+ 0 0 1 -2
+ ```
+ The rule of entering constant values is the same as entering coefficients. 
   
-  - Outputs
-  <p align="left">
-    <img src="https://user-images.githubusercontent.com/72709191/195332933-a02a0810-ff2a-4d50-8bee-71fe956ea207.JPG" width=25% height=40% />
-  </p>
+  - Output
+  ```
+  Given Matrix:
+  [[ 0.  0.  1. -2. -3.]
+   [ 1. -7.  0.  6.  5.]
+   [-1.  7. -4.  2.  7.]]
+  x1 is (5.0+-7.0+6.0)
+  x2 is free
+  x3 is (-3.0+-2.0)
+  x4 is free
+  ```
   
   ## Shadow
   In this mini-project, the attempt is to create a shadow for an object in a picture, using `shear transformation`. Here are the steps of shadow creation:
