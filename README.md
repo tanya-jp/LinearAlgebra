@@ -12,12 +12,12 @@ In this mini-project, the aim is to solve a `coordinate system` using `augmented
   7. Printing results
  - Inputs
   <p align="left">
-    <img src="https://user-images.githubusercontent.com/72709191/195332520-a64f0310-2992-40fc-bf90-3ae3f666e5f5.JPG" width=25% height=25% />
+    <img src="https://user-images.githubusercontent.com/72709191/195332520-a64f0310-2992-40fc-bf90-3ae3f666e5f5.JPG" width=25% height=40% />
   </p>
   
   - Outputs
   <p align="left">
-    <img src="https://user-images.githubusercontent.com/72709191/195332933-a02a0810-ff2a-4d50-8bee-71fe956ea207.JPG" width=25% height=25% />
+    <img src="https://user-images.githubusercontent.com/72709191/195332933-a02a0810-ff2a-4d50-8bee-71fe956ea207.JPG" width=25% height=40% />
   </p>
   
   ## Shadow
@@ -35,3 +35,13 @@ In this mini-project, the aim is to solve a `coordinate system` using `augmented
 <p align="left">
     <img src="https://user-images.githubusercontent.com/72709191/195339352-81ed14fd-b272-474e-bebb-ca993a9b88fd.png" width=45% height=45% />
 </p>
+
+## Regression
+This mini-project aims to forecast the open values of the last 10 rows of [GOOGL.csv](https://github.com/tanya-jp/LinearAlgebra/blob/main/GOOGL.csv), using `linear regression` and `polynomial regression`. After the prediction the error is calculated and the figure of actual values and forecasted ones is shown.
+- Output Figure
+<p align="left">
+   <img src="https://user-images.githubusercontent.com/72709191/195385249-15a0d8b4-58e9-4ce9-aa1e-c02071424a9d.png" width=50% height=50% />
+</p>
+
+## Noise Reduction
+This mini-project is based on this fact that `SVD` reduces the noises of received signals and images. The `SVD` process should be applied on each R, G, and B matrix of the input image to reduce the noises of [the noisy image](https://github.com/tanya-jp/LinearAlgebra/blob/main/noisy.jpg), but it is noteable that for having the most accurat output S values need a threshould which in this project is 1750.
