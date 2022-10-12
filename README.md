@@ -44,4 +44,12 @@ This mini-project aims to forecast the open values of the last 10 rows of [GOOGL
 </p>
 
 ## Noise Reduction
-This mini-project is based on this fact that `SVD` reduces the noises of received signals and images. The `SVD` process should be applied on each R, G, and B matrix of the input image to reduce the noises of [the noisy image](https://github.com/tanya-jp/LinearAlgebra/blob/main/noisy.jpg), but it is noteable that for having the most accurat output S values need a threshould which in this project is 1750.
+This mini-project is based on the fact that `SVD` reduces the noises of received signals and images. The `SVD` process should be applied on each R, G, and B matrix of the input image to reduce the noises of [the Noisy Image](https://github.com/tanya-jp/LinearAlgebra/blob/main/noisy.jpg). `Numpy` is used to find the values of S, V and D of each matrix:
+```
+np.linalg.svd(matrix)
+```
+It is notable that for having the most possible accurate output S values need a threshold which in this project is set 1750. After finding new S values, new image which has less noise will be created.
+- The Cleaned Image of [the Noisy Image](https://github.com/tanya-jp/LinearAlgebra/blob/main/noisy.jpg)
+<p align="left">
+   <img src="https://user-images.githubusercontent.com/72709191/195393268-3d9931fd-cea8-4f3b-ad90-d3837ed75dd9.jpeg" width=10% height=10% />
+</p>
